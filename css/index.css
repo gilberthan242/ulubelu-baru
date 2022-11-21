@@ -1,0 +1,1413 @@
+@font-face {
+  font-family: 'retrouvailles';
+  src: url('font/retrouvailles-italic.ttf') format('truetype');
+}
+
+@import url('http://fonts.cdnfonts.com/css/julia-lauren');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px red solid; */
+}
+
+.body {
+  font-family: "Gotham", sans-serif;
+  font-size: 1vw;
+}
+
+.page-container{
+  position: relative;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #C1393D;
+}
+
+.sec1{
+  background: #FEF7EC;
+}
+
+nav{
+  position: relative;
+  z-index: 6;
+  border-radius: 0 0 0 25px;
+  box-shadow: -2px 2px 10px rgba(0,0,0,0.5);
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  background: #C1393D;
+  font-size: 14px;
+  float: right;
+}
+
+.sec1 ul{
+  list-style: none;
+  margin-top: 13px;
+}
+
+nav li{
+  margin: 0 28px 0 28px;
+  display: inline;
+}
+
+nav a, nav a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.sec1 nav img{
+  margin-left: 80px;
+  height: 30px;
+  width: 60px;
+}
+
+.logo img{
+  margin: 30px 0 0 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.isi{
+  margin-left: 120px;
+  font-family: "Lora", sans-serif;
+}
+
+.kanan{
+  float: right;
+}
+
+.kanan img{
+  position: relative;
+  z-index: 2;
+  margin-top: -80px;
+  width: 530px;
+  height: 750px;
+}
+
+.kiri{
+  width: 55%;
+}
+
+.judul{
+  display: inline;
+}
+
+.judul h1{
+  font-size: 70px;
+  letter-spacing: 3px;
+  line-height: 70px;
+  color: #5E5A57;
+  display: inline;
+}
+
+.judul h2{
+  letter-spacing: 4px;
+  color: #C1393D;
+  display: inline-block;
+  font-family: 'Julia Lauren', sans-serif;
+  font-size: 23px;
+  margin-left: 23px;
+}
+
+.rectangle{
+  margin-top: 10px;
+  height: 3px;
+  width: 55%;
+  background: #C1393D;
+}
+
+.text{
+  margin-top: 8px;
+  color: #89786A;
+  margin-left: 5px;
+  width: 54%;
+  font-family: "Gotham", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text p{
+  margin-bottom: 20px;
+  font-family: "Gotham", sans-serif;
+}
+
+.contact-us img{
+  display: inline;
+  width: 250px;
+  height: 70px;
+}
+
+.contact-us{
+  display: inline;
+}
+
+#rectangle{
+  display: inline-block;
+  margin-top: 10px;
+  height: 3px;
+  width: 34%;
+  background: #C1393D;
+}
+
+.sec2 {
+  background: #E0D5C4;
+  z-index: 1;
+  position: relative;
+}
+
+.sertif{
+  display: inline-block;
+  width: 30%;
+  padding-top: 20px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.sec2 h6{
+  font-family: "Gotham", sans-serif;
+}
+
+h6:nth-child(1){
+  color: #C1393D;
+}
+
+h6:nth-child(2){
+  letter-spacing: 1.7px;
+  color: #4A4949;
+}
+
+.logo-sertif{
+  position: relative;
+  margin-left: -5px;
+}
+
+.logo-sertif img{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-sertif img:nth-child(1){
+  margin-right: 100px;
+}
+
+.desc{
+  margin: 68px 0 0 0vw;
+  position: absolute;
+  display: inline-block;
+}
+
+.desc h3{
+  font-family: "Lora", sans-serif;
+  color: #464646;
+}
+
+.desc p{
+  color: #89786A;
+  font-family: "Gotham", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  width: 83%;
+  letter-spacing: 0.5px;
+}
+
+.desc span{
+  color: #C1393D;
+}
+
+/*----------------- Panel 3 -----------------*/
+.panel3 {
+  background: url(../assets/Background.png);
+  width: 100%;
+  min-width: 1300px;
+  height: 900px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  margin: 0 0 0 0;
+  box-sizing:50px;
+}
+
+/*------ Kiri ------*/
+.kiri2{
+  width: 43%;
+  float: left;
+}
+
+.kiri2 .p2 {
+  line-height: 1px;
+  margin-top: 5vw;
+  margin-left: 203px;
+  font-size: 36px;
+  font-family: 'lora';
+  color: #665344;
+  font-weight: 490;
+}
+
+.kiri2 .p3 {
+  margin-left: 205px;
+  font-size: 15px;
+  font-family: 'lora';
+  color: #665344;
+  font-weight: 490;
+  line-height: 2px;
+}
+
+.kiri2 .p4 {
+  margin-left: 205px;
+  font-size: 12px;
+  font-family: 'lora';
+  color: #665344;
+  font-weight: 490;
+  line-height: 2px;
+  letter-spacing: 1px;
+}
+
+.kiri2 .click{
+  margin-top: 50px;
+}
+
+.click hr{
+  margin-top: 10px;
+  margin-left: 205px;
+  height: 1px;
+  width: 33%;
+  background: #C4C4C4;
+}
+
+/*----- Kanan -----*/
+/* .yangkanan{
+  position: relative;
+} */
+
+/* PANEL GOJEK DAN GRABFOOD */
+
+.panel3c {
+  padding-left: 78%;
+  margin-top: -120px;
+}
+
+.del img{
+  width: 55px;
+  height: 55px;
+}
+
+.text_p3b{
+  height: 55px;
+  width: 200px;
+  margin-left: -9%;
+  margin-top: 1%;
+}
+
+.available{
+  margin-left: 48vw;
+  padding-top: 10px;
+  color: #665344;
+  font-size: 15px;
+  font-family: 'lato', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.table3{
+  margin-top: -20px;
+}
+
+table td{
+  margin-right: 9px;
+}
+
+.del td{
+  padding-right: 40px;
+}
+
+table img{
+  width: 80px;
+  height: 80px;
+}
+
+.wa_logo{
+  padding-top: 4%;
+}
+
+.button3{
+  background-color: #C7AF8B;
+  border: none;
+  border-radius: 19px;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.font3{
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.font3-1{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.buttonpanel3{
+  margin-top: -15px;
+  padding-left: 43.3%;
+}
+
+/*----- hover Panel 3 -----*/
+.hover_p3{
+  margin-top: 8vw;
+  text-align: center;
+}
+
+.desc_kopi img{
+  margin: 20px;
+}
+
+.prod_kopi{
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.prod_kopi img{
+  position: sticky;
+  width: 180px;
+}
+
+.btn_kopi{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_kopi img{
+  cursor: pointer;
+}
+
+.closed_wrap{
+  width: 1100px;
+  overflow: hidden;
+}
+
+/* 60% */
+@media screen and (min-width : 2801px){
+  .hover_p3{
+    margin-top: 2vw;
+  }
+}
+
+/* 50% */
+@media screen and (min-width : 2080px) and (max-width : 2800px){
+  .hover_p3{
+    margin-top: 5vw;
+  }
+
+  .available{
+    margin-left: 28.2vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 750px;
+  }
+}
+
+/* 70% */
+@media screen and (min-width : 1920px) and (max-width : 2079px){
+  .hover_p3{
+    margin-top: 7vw;
+  }
+
+  .available{
+    margin-left: 37.5vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 750px;
+  }
+}
+
+/* 80% */
+@media screen and (min-width : 1760px) and (max-width : 1919px){
+  .hover_p3{
+    margin-top: 8vw;
+  }
+
+  .available{
+    margin-left: 42.3vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 750px;
+  }
+}
+
+/* 90% */
+@media screen and (min-width : 1600px) and (max-width : 1759px){
+  .hover_p3{
+    margin-top: 8vw;
+  }
+
+  .available{
+    margin-left: 45vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 750px;
+  }
+}
+
+/* 100% */
+@media screen and (min-width : 1440px) and (max-width : 1599px){
+  .available{
+    margin-left: 47.5vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 750px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1120px) and (max-width : 1279px){
+  .hover_p3{
+    margin-top: 8vw;
+  }
+
+  .kanan img{
+    width: 458px;
+    height: 800px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1060px) and (max-width : 1119px){
+  .hover_p3{
+    margin-top: 13vw;
+  }
+
+  .kanan img{
+    width: 528px;
+    height: 750px;
+  }
+
+  .available{
+    margin-left: 70vw;
+  }
+}
+
+/* 140% */
+@media screen and (min-width : 800px) and (max-width : 1059px){
+  .hover_p3{
+    margin-top: 15vw;
+  }
+
+  .kanan img{
+    width: 528px;
+    height: 750px;
+  }
+
+  .available{
+    margin-left: 83vw;
+  }
+}
+
+
+
+
+/* ---------------- Panel 2 -------------------- */
+.panel2{
+  background: #E0D5C4;
+  width: 100%;
+  min-width: 1300px;
+  height: 475px;
+  margin: 0 0 0 0;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.panel2b{
+background: #E0D5C4;
+width: auto;
+min-width: 1300px;
+height: 425px;
+margin-top: -70px;
+margin-bottom: -16px;
+display: flex;
+justify-content: center;
+}
+
+/* gallery display */
+
+/*------------- photos1 ------------- */
+.photos {
+  padding-top: 50px;
+  display: block;
+}
+
+.photos img{
+  width: 277px;
+  height: 350px;
+}
+
+.photos img:hover{
+    opacity: 0.7;
+}
+
+.photos ul {
+  list-style: none;
+}
+
+.photos ul li { 
+    display: inline;
+    list-style: none;
+    float: left;
+    padding: 0 10px 0 0;
+    text-align:center; 
+    margin-bottom: 25px;
+}
+
+.photos ul li a {
+
+  display: block;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: #665344;
+  font-size: 24px;
+  font-weight: bold;
+}
+.photos ul li a:hover {
+  opacity: 1.0;
+}
+
+/*------------- photos2 ------------- */
+
+.photos2 {
+  display: block;
+}
+
+.photos2 img{
+    width: 277px;
+    height: 350px;
+}
+
+.photos2 img:hover{
+    opacity: 0.7;
+  }
+
+.photos2 ul {
+  list-style: none;
+}
+
+.photos2 ul li { 
+    display: inline;
+    list-style: none;
+    float: left;
+    padding: 0 10px 0 0;
+    text-align:center; 
+}
+
+.photos2 ul li a {
+
+  display: block;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: #665344;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ------------------ end ------------------*/
+
+
+
+/* ------------ MODAL WINDOWS FOR IMAGE --------------*/
+#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+  /* The Modal (background) */
+  .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: blue (0.4); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: -100px auto auto auto;
+    display: block;
+    width: 100%;
+    max-width: 1169px;
+    border-radius: 10px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.1s;
+  animation-name: zoom;
+  animation-duration: 0.1s;
+  }
+  
+  @-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.5)} 
+  to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+  from {transform:scale(0.5)} 
+  to {transform:scale(1)}
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+  }
+  
+  .container{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+  }
+  
+  /* ------------ MODAL WINDOWS FOR TEXT --------------*/
+  .myText1 {
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
+  .myText1:hover {opacity: 0.7;}
+  
+  .myText1 {
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
+  .myText:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .modal .container{
+    position: relative;
+    width: 100%;
+    max-width: 32%;
+    margin: 0 auto;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+  .modal-content2 {
+    width: 100%;
+  }
+  }
+
+/* ------------ MODAL2 WINDOWS FOR IMAGE --------------*/
+#myImg01 {
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* The Modal (background) */
+.modal2 {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: none; /* Enable scroll if needed */
+background-color: blue (0.4); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content2 {
+margin: -70px auto auto auto;
+display: block;
+width: 100%;
+max-width: 1169px;
+border-radius: 10px;
+}
+
+/* Add Animation */
+.modal-content2, #caption2 {  
+-webkit-animation-name: zoom;
+-webkit-animation-duration: 0.1s;
+animation-name: zoom;
+animation-duration: 0.1s;
+}
+
+@-webkit-keyframes zoom {
+from {-webkit-transform:scale(0.5)} 
+to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+from {transform:scale(0.5)} 
+to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close2 {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+color: #bbb;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+.modal-content2 {
+  width: 100%;
+}
+}
+
+.container2{
+position: relative;
+height: 100%;
+margin: 0 auto;
+max-width: max-content;
+max-height: max-content;
+}
+
+.container2{  
+-webkit-animation-name: zoom;
+-webkit-animation-duration: 0.6s;
+animation-name: zoom;
+animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+from {-webkit-transform:scale(0)} 
+to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+from {transform:scale(0)} 
+to {transform:scale(1)}
+}
+
+/* ------------ MODAL WINDOWS FOR TEXT --------------*/
+.myText1 {
+cursor: pointer;
+transition: 0.3s;
+}
+
+.myText1:hover {opacity: 0.7;}
+
+.myText2 {
+cursor: pointer;
+transition: 0.3s;
+}
+
+.myText2:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal2 {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: none; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content2 {
+display: block;
+max-width: 100%;
+max-height: 100%;
+}
+
+/* Caption of Modal Image */
+#caption2 {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+text-align: center;
+padding: 10px 0;
+}
+
+/* Add Animation
+.modal-content, #caption {  
+-webkit-animation-name: zoom;
+-webkit-animation-duration: 2s;
+animation-name: zoom;
+animation-duration: 2s;
+} */
+
+/* @-webkit-keyframes zoom {
+from {-webkit-transform:scale(0)} 
+to {-webkit-transform:scale(1)}
+} */
+
+/* @keyframes zoom {
+from {transform:scale(0)} 
+to {transform:scale(1)}
+} */
+
+/* The Close Button */
+.close2 {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+color: #bbb;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+.modal-content2 {
+  width: 100%;
+}
+}
+
+
+/* ------------ MODAL3 WINDOWS FOR IMAGE --------------*/
+#myImgA1, #myImgA3 {
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
+  /* The Modal (background) */
+  .modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: blue (0.4); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content3 {
+  margin: -70px auto auto auto;
+  display: block;
+  width: 100%;
+  max-width: 1169px;
+  border-radius: 10px;
+  }
+  
+  /* Add Animation */
+  .modal-content3, #caption3 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.1s;
+  animation-name: zoom;
+  animation-duration: 0.1s;
+  }
+  
+  @-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.5)} 
+  to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+  from {transform:scale(0.5)} 
+  to {transform:scale(1)}
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+  .modal-content3 {
+    width: 100%;
+  }
+  }
+  
+  .container3{
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  max-width: max-content;
+  max-height: max-content;
+  }
+  
+  .container3{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+  }
+  
+  /* ------------ MODAL WINDOWS FOR TEXT --------------*/
+  .myText1 {
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
+  .myText1:hover {opacity: 0.7;}
+  
+  .myText3 {
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
+  .myText3:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content3 {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  }
+  
+  /* Caption of Modal Image */
+  #caption3{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  padding: 10px 0;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+  .modal-content2 {
+    width: 100%;
+  }
+  }
+
+
+/* ------------------------ Panel 5 --------------------------- */
+
+.sec5{
+  background: #F4F4F4;
+  display: grid;
+  position: relative;
+  margin: auto;
+  gap: 10px;
+  grid-template-areas:  "alamat map";
+  grid-template-columns: 1fr 1fr;
+}
+
+.alamat{
+  border-radius: 0 25px 25px 0;
+  background: #C1393D;
+  font-family: "Lora", sans-serif;
+}
+
+.alamat-group{
+  margin: 40px 0 0 120px;
+}
+
+.alamat h3{
+  font-family: "Lora", sans-serif;
+  color: #f2f2f2;
+}
+
+.alamat h1{
+  font-family: "Gotham", sans-serif;
+  color: #FFF84D;
+}
+
+.alamat p{
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: "Gotham", sans-serif;
+  color: #F2F2F2;
+  width: 70%;
+}
+
+.rectangle2{
+  margin-top: 10px;
+  height: 3px;
+  width: 55%;
+  background: #FFF84D;
+}
+
+.map{
+  padding: 30px 70px 30px 70px;
+}
+
+.map-group{
+  width: 500px;
+  border-radius: 14px;
+  background: #FFFFFF;
+}
+
+.map-group img{
+  padding: 30px 0 30px 0;
+  width: 500px;
+  height: 300px;
+}
+
+
+/* --------------------Panel 6 ---------------------- */
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.panel4{
+  position: relative;
+  background-color: #F8F2EA;
+  border-radius: 25px 25px 0 0;
+  height: 280px;
+  width: 100%;
+  box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.20);
+}
+
+.column {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*----- Left -----*/
+.left{
+  width: 19%;
+  padding-left: 70px;
+}
+
+.left a{
+  margin-left: 1.5vw;
+  text-decoration: none;
+  color: black;
+  font-family: 'Gotham', sans-serif;
+  font-size: 15px;
+}
+
+.left li{
+  margin-top: 10px;
+  margin-left: 10px;
+  list-style-image: url(../assets/coffee\ beans\ icon\ 17.png);
+}
+
+.left li::marker {
+  font-size: 1px;
+}
+
+.left ul li a:hover{
+  color: #A4282A;
+}
+
+.rectangle3 {
+  height: 2px;
+  width: 100%;
+  margin-left: 1.7vw;
+  background-color: #656565;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+/*----- middle ----- */
+.middle {
+  background: #FFFFFF;
+  width: 25%;
+  margin-left: 5%;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.20);
+}
+
+.middle font{
+  font-size: 40px;
+  padding-top: 7px;
+  padding-left: 13px;
+  font-family: 'lato', sans-serif;
+  color: white;
+}
+
+.middle .font-bahasa{
+  font-size: 35px;
+  padding-top: 7px;
+  padding-left: 13px;
+  font-family: 'lato', sans-serif;
+  color: white;
+}
+
+.judul_contactus{
+  width: 100%;
+  display: inline-flex;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #C1393D;
+}
+.judul_contactus img{
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.contact{
+  background-color: white;
+}
+
+.middle ul {
+  list-style: none;
+  padding: 0;
+}
+
+.middle .fa-li{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.middle li {
+  padding-top: 10px;
+  padding-left: 1.3em;
+}
+
+.middle li:before {
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+/*----- Right -----*/
+
+.right {
+  width: 50%;
+}
+
+.flex {
+  display:flex;
+  margin-left: 320px;
+}
+
+.flex div{
+  padding-right: 50px;
+}
+
+.flex img {
+  width:50px;
+  height: 50px;
+}
+
+.flex img:hover{
+  transform: translateY(-10px);
+}
+
+.producted {
+  margin-left: 320px;
+}
+
+.producted h2, p {
+  font-family: 'lora', sans-serif;
+  color: #656565;
+}
+
+.producted p{
+  font-size: 17px;
+}
+
+/*----- footer 5 -----*/
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #A4282A;
+  height: 49px;
+  width: 100%;
+}
+
+.logo_good {
+  display: flex;
+  align-items: center;
+}
+
+.logo_good p{
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: white;
+  font-family: 'Gotham', sans-serif;
+}
+
+span{
+  font-weight: 500;
+}
+
+.logo_good hr {
+  color: white;
+  margin-top: 40px;
+  flex:1;
+  width: 690px;
+}
+
+.rectangle_foot {
+  height: 9px;
+  width: 100%;
+  min-width: 1300px;
+  background-color: #4A4949;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.rectangle_product {
+  height: 2px;
+  width: 270px;
+  background-color: #656565;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ----------dropdown-------------- */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C1393D;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display: block;}
+
+button{
+  border: none;
+  color: white;
+}
+
+.hidden-text p{
+  color: transparent;
+  font-size: 0.1px;
+}
